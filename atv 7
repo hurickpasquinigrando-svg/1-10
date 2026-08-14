@@ -1,0 +1,22 @@
+programa
+{
+   p funcao inicio()
+    {
+        inteiro n, i
+        inteiro primeiro = 0
+        inteiro segundo = 1
+        inteiro proximo
+
+        escreva("Quantos termos deseja mostrar? ")
+        leia(n)
+
+        para (i = 1; i <= n; i++)
+        {
+            escreva(primeiro, " ")
+
+            proximo = primeiro + segundo
+            primeiro = segundo
+            segundo = proximo
+        }
+    }
+}
